@@ -1,6 +1,10 @@
+@import 'colors';
+
 #logo-container {
     width: 150px;
     margin: auto;
+    position: relative;
+    top: 35vh;
 }
 
 #logo svg {
@@ -30,6 +34,6 @@
 }
 
 #logo:hover path {
-    stroke: #fff;
+    stroke: $background;
     stroke-width: 30px;
 }
