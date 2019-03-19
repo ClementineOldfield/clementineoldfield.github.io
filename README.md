@@ -34,8 +34,8 @@ Personal logo (optional) -->
 ## Design Process
 
 ### Wireframes
-<img align="left width="300" src="/docs/basic-wireframe-1.JPG" >
-<img align="right width="300" src="/docs/basic-wireframe-2.JPG" >
+<img align="left" width="300" src="/docs/basic-wireframe-1.JPG" />
+<img align="right" width="300" src="/docs/basic-wireframe-2.JPG" />
 
 
 <!--
