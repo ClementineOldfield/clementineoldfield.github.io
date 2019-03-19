@@ -1,13 +1,13 @@
+@import 'colors';
+
 #logo-container {
     width: 150px;
     margin: auto;
+    position: relative;
+    top: 35vh;
 }
 
 #logo svg {
-
-    #path {
-        transition: 1s;
-    }
 
     #path-1 {
         fill: #D1E9F2;
@@ -33,12 +33,7 @@
     }
 }
 
-#logo path {
-    transition: 1s;
-}
-
 #logo:hover path {
-    transition: 1s;
-    stroke: #fff;
+    stroke: $background;
     stroke-width: 30px;
 }

@@ -1,20 +1,24 @@
 @import 'normalize';
 @import 'logo';
+@import 'colors';
 
-$orange: #fd9966;
-$blue: #53abe2;
-$red: #d85f61;
-$text-color: rgb(24, 24, 24);
+body {
+    background-color: $background;
+}
 
 h1 {
     color: $text-color;
+}
+
+header {
+    width: 100%;
 }
 
 #stripes {
     z-index: -1;
     width: 100%;
     position: absolute;
-    top: 65px;
+    top: 45vh;
     left: 0;
 }
 
