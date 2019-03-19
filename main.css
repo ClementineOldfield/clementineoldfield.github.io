@@ -227,9 +227,6 @@ table {
   margin: auto;
 }
 
-#logo svg #path {
-  transition: 1s;
-}
 #logo svg #path-1 {
   fill: #D1E9F2;
   opacity: 0.7;
@@ -253,12 +250,7 @@ table {
   fill: #D64C4C;
 }
 
-#logo path {
-  transition: 1s;
-}
-
 #logo:hover path {
-  transition: 1s;
   stroke: #fff;
   stroke-width: 30px;
 }

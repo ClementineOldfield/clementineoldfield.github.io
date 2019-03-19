@@ -5,10 +5,6 @@
 
 #logo svg {
 
-    #path {
-        transition: 1s;
-    }
-
     #path-1 {
         fill: #D1E9F2;
         opacity: 0.7;
@@ -33,12 +29,7 @@
     }
 }
 
-#logo path {
-    transition: 1s;
-}
-
 #logo:hover path {
-    transition: 1s;
     stroke: #fff;
     stroke-width: 30px;
 }
