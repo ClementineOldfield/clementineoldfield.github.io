@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Clementine Oldfield</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
 </head>
 <body>
+    <div class="page-wrapper">
     <header>
         <div id="stripes">
             <hr id="stripe-1" />
@@ -41,19 +43,37 @@
                 </div>
             </a>
         </div>
-        <h1>Clementine Oldfield</h1>
-        <h2>Junior Developer</h2>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <h1 id="name">Clementine Oldfield</h1>
+        <h2 class="tag">Junior Developer</h2>
+        <nav role="navigation">
+            <div id="menu-toggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <input type="checkbox" />
+                <ul id="menu">
+                    <a href="about.html"><li>About</li></a>
+                    <a href="work.html"><li>Work</li></a>
+                    <a href="blog.html"><li>Blog</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
 
     </main>
+    <footer>
+        <ul class="social-media-bar">
+            <li><a href="http://www.linkedin.com/in/clementine-oldfield-064aa744"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://twitter.com/O_Clementine"><i class="fab fa-twitter"></i></li></a><br class="stack-icons"/>
+            <li><a href="https://www.instagram.com/clementine_peggy/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://medium.com/@clementine.oldfield"><i class="fab fa-medium-m"></i></a></li>
+            <li><a href="https://github.com/ClementineOldfield"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </footer>
+    </div>
 </body>
 </html>

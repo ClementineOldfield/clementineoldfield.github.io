@@ -259,6 +259,13 @@ table {
 
 body {
   background-color: #FCF2ED;
+  width: 100%;
+  overflow: hidden;
+}
+
+.page-wrapper {
+  width: 100%;
+  overflow: hidden;
 }
 
 h1 {
@@ -298,6 +305,68 @@ header {
 
 #stripe-3 {
   color: #fd9966;
+}
+
+/* 
+    Hamburger
+*/
+/*TODO - FIX THIS */
+ul#menu {
+  display: inline-block;
+}
+ul#menu a {
+  display: inline-block;
+}
+
+nav {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+#menu-toggle span {
+  background-color: #223843;
+  margin: 6px 0;
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#menu-toggle input {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 33px;
+  opacity: 0;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#menu-toggle ul#menu {
+  transition: margin 1s;
+  position: fixed;
+  margin: 0 0 0 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: #223843;
+}
+#menu-toggle ul#menu a {
+  color: #FCF2ED;
+}
+
+#menu-toggle input:checked ~ ul#menu {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
