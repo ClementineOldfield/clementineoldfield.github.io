@@ -269,6 +269,11 @@ header {
   width: 100%;
 }
 
+.home-link {
+  display: block;
+  cursor: pointer;
+}
+
 #stripes {
   z-index: -1;
   width: 100%;
