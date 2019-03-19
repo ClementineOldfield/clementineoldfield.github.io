@@ -34,8 +34,9 @@ Personal logo (optional) -->
 ## Design Process
 
 ### Wireframes
-![Rough Wireframe 1](/docs/basic-wireframe-1.JPG "Rough wireframe #1")
-<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+<img align="left width="300" src="/docs/basic-wireframe-1.JPG" >
+<img align="right width="300" src="/docs/basic-wireframe-2.JPG" >
+
 
 <!--
 Usability considerations
