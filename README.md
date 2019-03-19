@@ -23,11 +23,21 @@ Functionality / features -->
 Sitemap
 Screenshots
 Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
+Tech stack (e.g. html, css, deployment platform, etc) -->
+
+<!--
 Design documentation including,
 Design process
 Wireframes
-Personal logo (optional)
+Personal logo (optional) -->
+
+## Design Process
+
+### Wireframes
+![Rough Wireframe 1](/docs/basic-wireframe-1.jpg "Rough wireframe #1")
+
+
+<!--
 Usability considerations
 Details of planning process including,
 Project plan & timeline
