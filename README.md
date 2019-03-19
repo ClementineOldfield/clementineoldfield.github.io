@@ -33,8 +33,12 @@ Personal logo (optional) -->
 
 ## Design Process
 
+Before starting any design at all, I mapped out the content that would need to be displayed on the site. Using trello to brainstorm, I got a pretty good idea of the total amount of content that would potentially be included in the final product.
+
+<img alt="Image of Trello board: Content Planning" align="left" width="500" src="/docs/content-planning.png" />
+
 ### Wireframes
-<img align="left" width="300" src="/docs/basic-wireframe-1.JPG" />
+<img align="left" width="500" src="/docs/basic-wireframe-1.JPG" />
 <img align="right" width="300" src="/docs/basic-wireframe-2.JPG" />
 
 
