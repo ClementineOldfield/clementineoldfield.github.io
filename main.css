@@ -1,0 +1,59 @@
+#logo-container {
+  width: 150px;
+  margin: auto;
+}
+
+#logo svg #path-1 {
+  fill: #D1E9F2;
+  opacity: 0.7;
+}
+#logo svg #path-2 {
+  fill: #82CBE8;
+}
+#logo svg #path-3 {
+  fill: #39A1E2;
+}
+#logo svg #path-4 {
+  fill: #F2B96D;
+}
+#logo svg #path-5 {
+  fill: #FF8D4D;
+}
+#logo svg #path-6 {
+  fill: #E57C7C;
+}
+#logo svg #path-7 {
+  fill: #D64C4C;
+}
+
+h1 {
+  color: #181818;
+}
+
+#stripes {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 65px;
+  left: 0;
+}
+
+#stripes hr {
+  border: 8px solid;
+  margin: 0;
+  opacity: 0.8;
+}
+
+#stripe-1 {
+  color: #d85f61;
+}
+
+#stripe-2 {
+  color: #53abe2;
+}
+
+#stripe-3 {
+  color: #fd9966;
+}
+
+/*# sourceMappingURL=main.css.map */
