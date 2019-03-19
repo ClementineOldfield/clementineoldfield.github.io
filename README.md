@@ -34,7 +34,7 @@ Personal logo (optional) -->
 ## Design Process
 
 ### Wireframes
-![Rough Wireframe 1](/docs/basic-wireframe-1.jpg "Rough wireframe #1")
+![Rough Wireframe 1](/docs/basic-wireframe-1.JPG "Rough wireframe #1")
 
 
 <!--
