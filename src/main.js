@@ -1,3 +1,10 @@
+window.onload = function() {
+    var burger = document.getElementById('hamburger');
+    burger.classList.remove('active');
+
+    var menu = document.getElementById('menu');
+    menu.classList.remove('active');
+}
 
 function toggleClass() {
     var burger = document.getElementById('hamburger');

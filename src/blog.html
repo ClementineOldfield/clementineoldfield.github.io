@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Clementine Oldfield</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
 </head>
@@ -43,13 +44,33 @@
         </div>
         <h1>Clementine Oldfield</h1>
         <h2>Junior Developer</h2>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav role="navigation">
+            <div id="menu-toggle">
+                <div id="hamburger" onclick="toggleClass()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div id="menu">
+                    <ul>
+                        <a href="about.html"><li>About.</li></a>
+                        <a href="work.html"><li>Work.</li></a>
+                        <a href="blog.html"><li>Blog.</li></a>
+                        <a href="contact.html"><li>Contact.</li></a>
+                    </ul>
+                    <table class="social-bar mobile-social">
+                        <tr>
+                            <td><a href="http://www.linkedin.com/in/clementine-oldfield-064aa744"><i class="fab fa-linkedin-in"></i></a></td>
+                            <td><a href="https://twitter.com/O_Clementine"><i class="fab fa-twitter"></i></li></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.instagram.com/clementine_peggy/"><i class="fab fa-instagram"></i></a></td>
+                            <td><a href="https://github.com/ClementineOldfield"><i class="fab fa-github"></i></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </nav>
     </header>
     <main>

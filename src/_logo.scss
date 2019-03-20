@@ -2,9 +2,31 @@
 
 #logo-container {
     width: 150px;
-    margin: auto;
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
     position: relative;
-    top: 35vh;
+    top: -6px;
+
+    path {
+        display: inline-block;
+        stroke-width: 0px;
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        stroke: $background;
+        opacity: 1;
+    }
+
+    path:hover {
+        opacity: 0.7;
+    }
+
+    &:hover path {
+        stroke-width: 20px;
+    }
 }
 
 #logo svg {
@@ -31,9 +53,5 @@
     #path-7 {
         fill: #D64C4C;
     }
-}
 
-#logo:hover path {
-    stroke: $background;
-    stroke-width: 30px;
 }
