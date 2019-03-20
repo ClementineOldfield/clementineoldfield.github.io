@@ -61,6 +61,7 @@ header {
 
 /*TODO - FIX THIS */
 ul#menu {
+    z-index: 1;
     display: inline-block;
     a {
         display: inline-block;
@@ -75,7 +76,15 @@ nav {
     width: 100%;
 }
 
-#menu-toggle span {
+#hamburger {
+    z-index: 2;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#menu-toggle #hamburger span {
+    transition: background-color 1.5s;
     background-color: $text-color;
     margin: 6px 0;
     display: block;
@@ -84,10 +93,9 @@ nav {
     border-radius: 2px;
 }
 
-.hamburger {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+#menu-toggle #hamburger.active span {
+    background-color: $background;
+    z-index: 1;
 }
 
 #menu-toggle input {

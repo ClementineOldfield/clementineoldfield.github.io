@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <div class="page-wrapper">
@@ -47,12 +46,12 @@
         <h2 class="tag">Junior Developer</h2>
         <nav role="navigation">
             <div id="menu-toggle">
-                <div class="hamburger">
+                <div id="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <input type="checkbox" />
+                <input type="checkbox" onclick="toggleClass()" />
                 <ul id="menu">
                     <a href="about.html"><li>About</li></a>
                     <a href="work.html"><li>Work</li></a>
@@ -75,5 +74,6 @@
         </ul>
     </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
