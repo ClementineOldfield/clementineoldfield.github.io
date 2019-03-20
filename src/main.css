@@ -257,6 +257,62 @@ table {
   stroke-width: 30px;
 }
 
+nav {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+#menu {
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: #223843;
+  display: inline-block;
+  padding: 50px;
+  box-sizing: border-box;
+  transition: margin 1s;
+  position: fixed;
+  margin: 0 0 0 100%;
+}
+#menu a {
+  display: block;
+  font-size: 40px;
+  font-family: helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  width: 70%;
+  margin: 15px auto;
+  color: #FCF2ED;
+}
+#menu.active {
+  margin: 0;
+}
+
+#hamburger {
+  z-index: 2;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#hamburger span {
+  transition: background-color 1.5s;
+  background-color: #223843;
+  margin: 6px 0;
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+#hamburger.active span {
+  background-color: #FCF2ED;
+  z-index: 1;
+}
+
 body {
   background-color: #FCF2ED;
   width: 100%;
@@ -265,6 +321,7 @@ body {
 
 .page-wrapper {
   width: 100%;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -307,74 +364,8 @@ header {
   color: #fd9966;
 }
 
-/* 
-    Hamburger
-*/
-/*TODO - FIX THIS */
-ul#menu {
-  z-index: 1;
-  display: inline-block;
-}
-ul#menu a {
-  display: inline-block;
-}
-
-nav {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-}
-
-#hamburger {
-  z-index: 2;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-}
-
-#menu-toggle #hamburger span {
-  transition: background-color 1.5s;
-  background-color: #223843;
-  margin: 6px 0;
-  display: block;
-  width: 30px;
-  height: 3px;
-  border-radius: 2px;
-}
-
-#menu-toggle #hamburger.active span {
-  background-color: #FCF2ED;
-  z-index: 1;
-}
-
-#menu-toggle input {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 30px;
-  height: 33px;
-  opacity: 0;
-  z-index: 3;
-  cursor: pointer;
-}
-
-#menu-toggle ul#menu {
-  transition: margin 1s;
-  position: fixed;
-  margin: 0 0 0 100%;
-  width: 100%;
-  height: 100vh;
-  background-color: #223843;
-}
-#menu-toggle ul#menu a {
-  color: #FCF2ED;
-}
-
-#menu-toggle input:checked ~ ul#menu {
-  margin: 0;
+.desktop-social {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
