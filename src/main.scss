@@ -5,38 +5,81 @@
 
 body {
     background-color: $background;
+    font-family: helvetica;
     width: 100%;
-    overflow: hidden;
 }
 
 .page-wrapper {
     width: 100%;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 105px;
+}
+
+.home-page .page-wrapper {
     height: 100vh;
     overflow: hidden;
 }
 
 h1, h2 {
-    text-align: center;
     color: $text-color;
     flex: 1;
     display: flex;
+    margin: 15px 0 0 20px;
 }
 
 h1 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    position: fixed;
+}
+
+.home-page h1 {
+    text-align: center;
     font-size: 50px;
     letter-spacing: -3px;
     line-height: 0.78;
     align-items: flex-end;
+    position: static;
 }
 
-h2 {
+h2, h3 {
     font-size: 30px;
     letter-spacing: -2px;
     font-weight: 100;
     align-items: flex-start;
 }
 
-header {
+h3 {
+    color: $text-color;
+    margin: 0 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.blurb-container {
+    padding: 0 15px;
+}
+
+.blurb {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: right;
+}
+
+#tag {
+    display: none;
+}
+
+.home-page #name,
+.home-page #tag {
+    display: flex;
+}
+
+.home-page header {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -46,25 +89,37 @@ header {
 }
 
 .home-link {
-    display: block;
+    display: inline-block;
     flex: 1;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #stripes {
-    z-index: -1;
+    z-index: 1;
     width: 100%;
-    position: absolute;
-    display: flex;
+    position: fixed; 
+    top: 75px;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
+    
+    hr {
+        border: 5px solid;
+        margin: 0;
+        opacity: 0.8;
+    }
 }
 
-#stripes hr {
-    border: 8px solid;
-    margin: 0;
-    opacity: 0.8;
+.home-page #stripes {
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    top: 0;
+
+    hr {
+        border: 8px solid;
+    }
 }
 
 #stripe-1 {
@@ -81,4 +136,16 @@ header {
 
 .desktop-social {
     display: none;
+}
+
+.sprite-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.spacer {
+    background-color: $background;
+    height: 105px;
+    width: 100%;
+    position: fixed;
 }
