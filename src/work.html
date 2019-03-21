@@ -9,8 +9,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
 </head>
-<body>
+<body class="work-page">
     <header>
+        <div class="spacer"></div>
         <div id="stripes">
             <hr id="stripe-1" />
             <hr id="stripe-2" />
@@ -42,8 +43,10 @@
                 </div>
             </a>
         </div>
-        <h1>Clementine Oldfield</h1>
-        <h2>Junior Developer</h2>
+        <a class='home-link' href="index.html">
+            <h1 id="name">Clementine.</h1>
+        </a>
+        <h2 id="tag">Junior Developer</h2>
         <nav role="navigation">
             <div id="menu-toggle">
                 <div id="hamburger" onclick="toggleClass()">
@@ -74,10 +77,28 @@
         </nav>
     </header>
     <main>
-        <h3>Work</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <h3 class="work">Work</h3>
+        <p class="blurb">Some of my recent projects.</p>
+        <div class="projects-container">
+            <div class="project project-1" >
+                <h4 class="project-title">Pokemon Terminal App</h4>
+                <div class="project-image">
+                    
+                </div>
+            </div>
+            <div class="project project-2">
+                <h4 class="project-title">Allegra Music Website</h4>
+                <div class="project-image"></div>
+            </div>
+            <div class="project project-3">
+                <h4 class="project-title">Allegra Music Website</h4>
+                <div class="project-image"></div>
+            </div>
+            <div class="project project-4">
+                <h4 class="project-title">Allegra Music Website</h4>
+                <div class="project-image"></div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
