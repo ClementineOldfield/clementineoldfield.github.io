@@ -15,11 +15,11 @@ body {
 }
 
 main {
-    margin-top: 105px;
+    margin-top: 170px;
 }
 
 .home-page .page-wrapper {
-    height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
 }
 
@@ -27,13 +27,13 @@ h1, h2 {
     color: $text-color;
     flex: 1;
     display: flex;
-    margin: 15px 0 0 20px;
 }
 
 h1 {
     font-size: 25px;
     letter-spacing: -1px;
     position: fixed;
+    margin: 15px 0 0 20px;
 }
 
 .home-page h1 {
@@ -43,6 +43,9 @@ h1 {
     line-height: 0.78;
     align-items: flex-end;
     position: static;
+    margin-block-end: 0.67em;
+    margin-block-start: 0.67em;
+    padding: inherit;
 }
 
 h2, h3 {
@@ -54,7 +57,7 @@ h2, h3 {
 
 h3 {
     color: $text-color;
-    margin: 0 20px;
+    margin: 25px 20px;
     font-size: 50px;
     font-weight: bold;
     text-align: right;
