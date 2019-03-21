@@ -1,16 +1,23 @@
 @import 'colors';
 
 #logo-container {
-    width: 150px;
+    display: none;
+    width: 55px;
     flex: 1.5;
-    display: flex;
     align-items: center;
+    top: 60px;
+    left: 30px;
+    position: absolute;
+}
+
+.home-page #logo-container {
+    position: static;
+    display: flex;
+    width: 150px;
+    opacity: 1;
 }
 
 #logo {
-    position: relative;
-    top: -6px;
-
     path {
         display: inline-block;
         stroke-width: 0px;
@@ -27,6 +34,11 @@
     &:hover path {
         stroke-width: 20px;
     }
+}
+
+.home-page #logo {
+    position: relative;
+    top: -6px;
 }
 
 #logo svg {
