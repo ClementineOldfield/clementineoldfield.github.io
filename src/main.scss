@@ -22,6 +22,10 @@ main {
     margin-top: 170px;
 }
 
+.contact-page main {
+    margin-top: 280px;
+}
+
 .home-page .page-wrapper {
     max-height: 100vh;
     overflow: hidden;
@@ -67,12 +71,30 @@ h3 {
     text-align: right;
 }
 
+.contact-page h3 {
+    font-size: 44px;
+}
+
 h3.work {
     margin-bottom: 0;
 }
 
 h4 {
     margin: 5px 0;
+}
+
+.contact-page h4 {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: right;
+    padding: 0 20px;
+}
+
+.contact-page label {
+    font-weight: 100;
+    display: block;
+    text-align: right;
+    padding: 10px 20px 0;
 }
 
 .blurb-container {
@@ -271,3 +293,4 @@ h4 {
 .project-4 .project-image {
     background-image: url(https://via.placeholder.com/350);
 }
+
