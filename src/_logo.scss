@@ -1,7 +1,7 @@
-@import 'colors';
 
 #logo-container {
-    display: none;
+    display: flex;
+    opacity: 0;
     width: 55px;
     flex: 1.5;
     align-items: center;
@@ -12,7 +12,6 @@
 
 .home-page #logo-container {
     position: static;
-    display: flex;
     width: 150px;
     opacity: 1;
 }
