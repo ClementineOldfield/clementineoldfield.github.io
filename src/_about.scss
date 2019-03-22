@@ -29,7 +29,8 @@
 
 ul.techs,
 ul.uxui,
-ul.software {
+ul.software,
+ul.hobbies {
     list-style: none;
     margin-top: 0;
     li {
@@ -41,6 +42,10 @@ ul.software {
 ul.education,
 ul.employment {
     list-style: none;
+}
+
+ul.hobbies {
+    margin: 30px 0;
 }
 
 ul.adobe-list li {

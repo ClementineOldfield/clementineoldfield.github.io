@@ -57,3 +57,10 @@
 .sprite.active {
     opacity: 1;
 }
+
+@media(min-width: $med){
+    #sprite-container {
+        position: fixed;
+        left: 20%;
+    }
+}

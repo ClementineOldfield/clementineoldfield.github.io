@@ -8,7 +8,7 @@ var wUp = document.getElementById('sprite-walk-up');
 var lastScrollTop = pageYOffset;
 window.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
-    
+    var width = window.innerWidth;
     // Clear our timeout throughout the scroll
     window.clearTimeout( isScrolling );
 
@@ -16,11 +16,11 @@ window.addEventListener("scroll", function(){ // or window.addEventListener("scr
 	isScrolling = setTimeout(function() {
 
 		// Run the callback
-        console.log( 'Scrolling has stopped.' );
-        
-        still.classList.add('active');
-        wDown.classList.remove('active');
-        wUp.classList.remove('active');
+      console.log( 'Scrolling has stopped.' );
+      
+      still.classList.add('active');
+      wDown.classList.remove('active');
+      wUp.classList.remove('active');
 
 	}, 65);
    
@@ -28,16 +28,28 @@ window.addEventListener("scroll", function(){ // or window.addEventListener("scr
       // downscroll code
       console.log("scrolling down");
 
-      still.classList.remove('active');
-      wDown.classList.remove('active');
-      wUp.classList.add('active');
+      if (width >= 900){
+         still.classList.remove('active');
+         wDown.classList.add('active');
+         wUp.classList.remove('active');  
+      } else {
+         still.classList.remove('active');
+         wDown.classList.remove('active');
+         wUp.classList.add('active');
+      }
    } else if (st < lastScrollTop) {
       // upscroll code
       console.log("scrolling up");
 
-      still.classList.remove('active');
-      wDown.classList.add('active');
-      wUp.classList.remove('active');
+      if (width >= 900){
+         still.classList.remove('active');
+         wDown.classList.remove('active');
+         wUp.classList.add('active');  
+      } else {
+         still.classList.remove('active');
+         wDown.classList.add('active');
+         wUp.classList.remove('active');
+      }
    }
    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);

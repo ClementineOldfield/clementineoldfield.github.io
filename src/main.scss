@@ -65,6 +65,10 @@ h3 {
     text-align: right;
 }
 
+.about-page h3 {
+    margin-top: 5px;
+}
+
 .contact-page h3 {
     font-size: 44px;
 }
@@ -105,6 +109,11 @@ h5 {
     font-weight: 100;
     font-size: 16px;
     text-align: right;
+}
+
+.blurb.big {
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 .work-page .blurb {

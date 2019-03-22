@@ -415,13 +415,15 @@ nav {
 }
 ul.techs,
 ul.uxui,
-ul.software {
+ul.software,
+ul.hobbies {
   list-style: none;
   margin-top: 0;
 }
 ul.techs li,
 ul.uxui li,
-ul.software li {
+ul.software li,
+ul.hobbies li {
   display: inline-block;
   margin: 0 20px;
 }
@@ -429,6 +431,10 @@ ul.software li {
 ul.education,
 ul.employment {
   list-style: none;
+}
+
+ul.hobbies {
+  margin: 30px 0;
 }
 
 ul.adobe-list li {
@@ -546,6 +552,12 @@ ul.adobe-list li {
   opacity: 1;
 }
 
+@media (min-width: 900px) {
+  #sprite-container {
+    position: fixed;
+    left: 20%;
+  }
+}
 body {
   background-color: #FCF2ED;
   font-family: helvetica;
@@ -602,6 +614,10 @@ h3 {
   text-align: right;
 }
 
+.about-page h3 {
+  margin-top: 5px;
+}
+
 .contact-page h3 {
   font-size: 44px;
 }
@@ -642,6 +658,11 @@ h5 {
   font-weight: 100;
   font-size: 16px;
   text-align: right;
+}
+
+.blurb.big {
+  font-size: 25px;
+  margin-left: 10px;
 }
 
 .work-page .blurb {
