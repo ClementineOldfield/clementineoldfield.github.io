@@ -337,3 +337,20 @@ h5 {
     }
 }
 
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .project {
+        width: 100%;
+    }
+}
+
+@media(min-width: $med){
+    .projects-container {
+        .project {
+            width: 47%;
+        }
+    }
+}
+

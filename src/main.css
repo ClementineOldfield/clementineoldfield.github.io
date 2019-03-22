@@ -873,5 +873,19 @@ h5 {
     color: #d85f61;
   }
 }
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.projects-container .project {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .projects-container .project {
+    width: 47%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
