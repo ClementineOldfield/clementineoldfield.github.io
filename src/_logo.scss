@@ -66,3 +66,14 @@
     }
 
 }
+
+@media(min-width: $med){
+    #logo-container {
+        z-index: 1;
+        opacity: 1;
+        width: 100px;
+        position: fixed;
+        left: 45.3%;
+        top: 35px;
+    }
+}
