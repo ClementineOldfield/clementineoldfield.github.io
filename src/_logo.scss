@@ -1,7 +1,7 @@
-@import 'colors';
 
 #logo-container {
-    display: none;
+    display: flex;
+    opacity: 0;
     width: 55px;
     flex: 1.5;
     align-items: center;
@@ -12,7 +12,6 @@
 
 .home-page #logo-container {
     position: static;
-    display: flex;
     width: 150px;
     opacity: 1;
 }
@@ -66,4 +65,15 @@
         fill: #D64C4C;
     }
 
+}
+
+@media(min-width: $med){
+    #logo-container {
+        z-index: 1;
+        opacity: 1;
+        width: 100px;
+        position: fixed;
+        left: 45.3%;
+        top: 35px;
+    }
 }

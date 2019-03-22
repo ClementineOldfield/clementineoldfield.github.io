@@ -13,7 +13,7 @@
         .blurb {
             text-align: left;
         }
-        .blurb {
+        p.blurb {
             width: 80%;
         }
     }
@@ -21,8 +21,58 @@
 
 @media(min-width: $med){
     #about-container {
-        .blurb {
+        p.blurb {
             width: 70%;
         }
+    }
+}
+
+ul.techs,
+ul.uxui,
+ul.software,
+ul.hobbies {
+    list-style: none;
+    margin-top: 0;
+    li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+}
+
+ul.education,
+ul.employment {
+    list-style: none;
+}
+
+ul.hobbies {
+    margin: 30px 0;
+}
+
+ul.adobe-list li {
+    display: block;
+}
+
+.education,
+.employment {
+    a {
+        color: $text-color;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    li {
+        margin: 22px 0;
+    }
+    span {
+        margin: 0 10px;
+    }
+    span.year {
+        font-style: italic;
+        margin-left: 15px;
+    }
+    span.job-location {
+        font-weight: 500;
+    }
+    span.job-description {
+        font-style: italic;
     }
 }

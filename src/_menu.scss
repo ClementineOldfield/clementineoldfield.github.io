@@ -61,3 +61,42 @@ nav {
     margin: 10% auto;
     text-align: center;
 }
+
+@media(min-width: $med){
+    #hamburger {
+        display: none;
+    }
+    #menu {
+        float: right;
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0;
+        right: 20px;
+        top: -20px;
+
+        a {
+            display: inline-block;
+            font-size: 26px;
+            color: $text-color;
+            width: auto;
+            transition: .8s;
+
+            &:hover {
+                opacity: .6;
+            }
+        }
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    .home-page #menu {
+        /*animation: DROP 2s;*/
+    }
+    
+    .social-bar.mobile-social {
+        display: none;
+    }
+}
