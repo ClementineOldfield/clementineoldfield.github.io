@@ -1,7 +1,14 @@
 @import 'normalize';
-@import 'logo';
+
 @import 'colors';
+@import 'breakpoints';
+
 @import 'menu';
+@import 'logo';
+
+@import 'about';
+@import 'sprite';
+
 
 body {
     background-color: $background;
@@ -179,97 +186,11 @@ h4 {
     display: none;
 }
 
-#sprite-container {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .spacer {
     background-color: $background;
     height: 105px;
     width: 100%;
     position: fixed;
-}
-
-
-@-webkit-keyframes WIGGLE {
-    0%   { -webkit-transform: translate(0px, 0px); z-index: -3 }
-    100%   { -webkit-transform: translate(0px, 0px); z-index: -3 }
-}
-
-@keyframes WIGGLE {
-    0%   { -webkit-transform: translate(0px, 0px); z-index: -3 }
-    100%   { -webkit-transform: translate(0px, 0px); z-index: -3 }
-}
-
-#little-clem{
-    display: none;
-    -webkit-animation: WIGGLE 1ms; 
-    animation: WIGGLE 1ms;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-}
-
-@keyframes WALK {
-    0% { background-position: 0 }
-    17% { background-position: -182px }
-    34% { background-position: -364px }
-    51% { background-position: -546px }
-    68% { background-position: -728px }
-    84% { background-position: -910px }
-}
-
-@-webkit-keyframes WALK {
-    0% { background-position: 0 }
-    17% { background-position: -182px }
-    34% { background-position: -364px }
-    51% { background-position: -546px }
-    68% { background-position: -728px }
-    84% { background-position: -910px }
-}
-
-#sprite-container {
-    height: 220px;
-    position: relative;
-    width: 182px;
-    margin-left: auto;
-    z-index: -3;
-}
-
-.sprite {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: right;
-    opacity: 0;
-    -webkit-backface-visibility: hidden; /* IOS Flicker fix */
-    -webkit-transform:translate3d(0,0,0);
-}
-
-#sprite-still {
-    background-image: url('assets/little-clem.png');
-}
-
-#sprite-walk-down {
-    background-image: url('assets/walking-down/down-spritesheet.png');
-    animation: WALK .8s infinite step-end;
-    -webkit-animation: WALK .8s infinite step-end;
-}
-
-#sprite-walk-up {
-    background-image: url('assets/walking-up/up-spritesheet.png');
-    animation: WALK .8s infinite step-end;
-    -webkit-animation: WALK .8s infinite step-end;
-}
-
-.sprite.active {
-    opacity: 1;
-}
-
-.no-flick {
-    -webkit-transform:translate3d(0,0,0);
 }
 
 .projects-container {
@@ -282,7 +203,6 @@ h4 {
     }
 }
 
-
 .project-1 .project-image {
     background-image: url(assets/projects/pokemon-app.png);
     background-size: 105%;
@@ -294,3 +214,19 @@ h4 {
     background-image: url(https://via.placeholder.com/350);
 }
 
+.left-col {
+    width: 500px;
+    margin-left: auto;
+}
+
+@media(min-width: $small){
+    .left-col {
+        width: 40%;
+    }
+}
+
+@media(min-width: $med){
+    .left-col {
+        width: 38%;
+    }
+}

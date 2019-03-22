@@ -1,0 +1,28 @@
+#about-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-container .text-container {
+    flex: 1;
+}
+
+@media(min-width: $small){
+    #about-container {
+        h3,
+        .blurb {
+            text-align: left;
+        }
+        .blurb {
+            width: 80%;
+        }
+    }
+}
+
+@media(min-width: $med){
+    #about-container {
+        .blurb {
+            width: 70%;
+        }
+    }
+}
