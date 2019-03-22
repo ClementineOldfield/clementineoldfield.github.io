@@ -313,7 +313,7 @@ nav {
   }
 
   .home-page #menu {
-    /*animation: DROP 2s;*/
+    animation: DROP 2s;
   }
 
   .social-bar.mobile-social {
@@ -756,10 +756,10 @@ h5 {
 
 @media (min-width: 900px) {
   .home-page #stripes {
-    /*width: 0%;
+    width: 0%;
     animation: DRAW 1s;
-    animation-delay: .6s;
-    animation-fill-mode: forwards;*/
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
   }
 }
 #stripe-1 {
@@ -871,6 +871,20 @@ h5 {
   }
   footer a:hover .fa-github {
     color: #d85f61;
+  }
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.projects-container .project {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .projects-container .project {
+    width: 47%;
   }
 }
 
