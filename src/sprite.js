@@ -28,7 +28,7 @@ window.addEventListener("scroll", function(){ // or window.addEventListener("scr
       // downscroll code
       console.log("scrolling down");
 
-      if (width >= 900){
+      if (width >= 600){
          still.classList.remove('active');
          wDown.classList.add('active');
          wUp.classList.remove('active');  
@@ -41,7 +41,7 @@ window.addEventListener("scroll", function(){ // or window.addEventListener("scr
       // upscroll code
       console.log("scrolling up");
 
-      if (width >= 900){
+      if (width >= 600){
          still.classList.remove('active');
          wDown.classList.remove('active');
          wUp.classList.add('active');  

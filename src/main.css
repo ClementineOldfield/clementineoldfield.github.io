@@ -552,9 +552,14 @@ ul.adobe-list li {
   opacity: 1;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) {
   #sprite-container {
     position: fixed;
+    left: 10%;
+  }
+}
+@media (min-width: 900px) {
+  #sprite-container {
     left: 20%;
   }
 }

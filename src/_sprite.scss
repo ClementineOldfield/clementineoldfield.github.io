@@ -58,9 +58,15 @@
     opacity: 1;
 }
 
-@media(min-width: $med){
+@media(min-width: $small){
     #sprite-container {
         position: fixed;
+        left: 10%;
+    }
+}
+
+@media(min-width: $med){
+    #sprite-container {
         left: 20%;
     }
 }
