@@ -5,10 +5,12 @@
 
 @import 'menu';
 @import 'logo';
+@import 'sprite';
 
 @import 'about';
 @import 'blog';
-@import 'sprite';
+@import 'contact';
+
 
 body {
     background-color: $background;
@@ -18,20 +20,13 @@ body {
 }
 
 .page-wrapper {
+    position: relative;
     width: 100%;
     min-height: 100vh;
 }
 
 main {
     margin-top: 105px;
-}
-
-.about-page main {
-    margin-top: 170px;
-}
-
-.contact-page main {
-    margin-top: 280px;
 }
 
 .home-page .page-wrapper {
@@ -66,14 +61,6 @@ h3 {
     text-align: right;
 }
 
-.about-page h3 {
-    margin-top: 5px;
-}
-
-.contact-page h3 {
-    font-size: 44px;
-}
-
 h3.work {
     margin-bottom: 0;
 }
@@ -83,23 +70,9 @@ h4 {
     margin: 45px 0 5px;
 }
 
-.contact-page h4 {
-    font-size: 24px;
-    font-weight: 100;
-    text-align: right;
-    padding: 0 20px;
-}
-
 h5 {
     font-size: 19px;
     margin: 35px 0 15px;
-}
-
-.contact-page label {
-    font-weight: 100;
-    display: block;
-    text-align: right;
-    padding: 10px 20px 0;
 }
 
 .blurb-container {
@@ -241,6 +214,10 @@ h5 {
     }
 }
 
+.footer-spacer {
+    height: 70px;
+}
+
 .projects-container {
     padding: 0 20px;
 
@@ -287,7 +264,9 @@ h5 {
 }
 
 footer {
-    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     padding: 10px;
     height: 50px;
     background:rgba(255, 255, 255, 0.5);
@@ -298,6 +277,10 @@ footer {
         font-weight: 100;
         text-align: center;
     }
+}
+
+.home-page footer {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 @media(min-width: $med){

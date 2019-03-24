@@ -95,23 +95,24 @@ My initial inspiration for the mood of the design came from the style of designe
 
 <img src="docs/vignelli.png" />
 
-#### Mood Board
+#### Pinterest Mood Board
 <img src="docs/pinterest.png" />
 
 I also like to experiment with pixel art and had created a small avatar of myself (pictured below) that I wanted to incorporate, largely inspired by the pixel style of the Super Nintendo game "Chrono Trigger". 
 
 <img src="docs/avatar.png" />
 
-##### Colour
+#### Colour
 
 The colour scheme I decided on was quite a bright one. I wanted three primary colours that would stand out and two very muted ones to support them. The complimentary pairing of blue and orange was my starting point, and the red brought a nice contrast to the trio. The off-white and off-black would be my background and text colours.<br>
+
 <img src="docs/colour-palette.png" />
 
 ##### Logo
-Another important design element was my logo. Using my initials as a starting point, and incorporating the colour palette, this is what I came up with.
-<img width="300px" style="display: block" src="docs/logo-progression.jpg" />
-I was able to turn this into an SVG so that I could affect each segment individually with CSS. Here is an example from the finished site:
 
+<img width="300px" display="block" src="docs/logo-progression.jpg" />
+Another important design element was my logo. Using my initials as a starting point, and incorporating the colour palette, this is what I came up with.
+I was able to turn this into an SVG so that I could affect each segment individually with CSS. Here is an example from the finished site:
 <img width="250px" src="docs/logo-hover.png" />
 
 *Logo effect on hover*

@@ -390,6 +390,108 @@ nav {
     top: 35px;
   }
 }
+@keyframes WALK {
+  0% {
+    background-position: 0;
+  }
+  17% {
+    background-position: -182px;
+  }
+  34% {
+    background-position: -364px;
+  }
+  51% {
+    background-position: -546px;
+  }
+  68% {
+    background-position: -728px;
+  }
+  84% {
+    background-position: -910px;
+  }
+}
+@-webkit-keyframes WALK {
+  0% {
+    background-position: 0;
+  }
+  17% {
+    background-position: -182px;
+  }
+  34% {
+    background-position: -364px;
+  }
+  51% {
+    background-position: -546px;
+  }
+  68% {
+    background-position: -728px;
+  }
+  84% {
+    background-position: -910px;
+  }
+}
+#sprite-container {
+  height: 220px;
+  position: relative;
+  width: 182px;
+  margin-left: auto;
+  z-index: -3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sprite {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* IOS Flicker fix */
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+#sprite-still {
+  background-image: url("assets/little-clem.png");
+}
+
+#sprite-walk-down {
+  background-image: url("assets/walking-down/down-spritesheet.png");
+  animation: WALK 0.8s infinite step-end;
+  -webkit-animation: WALK 0.8s infinite step-end;
+}
+
+#sprite-walk-up {
+  background-image: url("assets/walking-up/up-spritesheet.png");
+  animation: WALK 0.8s infinite step-end;
+  -webkit-animation: WALK 0.8s infinite step-end;
+}
+
+.sprite.active {
+  opacity: 1;
+}
+
+@media (min-width: 600px) {
+  #sprite-container {
+    position: fixed;
+    left: 10%;
+  }
+}
+@media (min-width: 900px) {
+  #sprite-container {
+    left: 20%;
+  }
+}
+.about-page main {
+  margin-top: 170px;
+}
+
+.about-page h3 {
+  margin-top: 5px;
+}
+
 #about-container {
   display: flex;
   flex-wrap: wrap;
@@ -490,98 +592,35 @@ ul.adobe-list li {
   padding: 0 20px;
 }
 
-@keyframes WALK {
-  0% {
-    background-position: 0;
-  }
-  17% {
-    background-position: -182px;
-  }
-  34% {
-    background-position: -364px;
-  }
-  51% {
-    background-position: -546px;
-  }
-  68% {
-    background-position: -728px;
-  }
-  84% {
-    background-position: -910px;
-  }
-}
-@-webkit-keyframes WALK {
-  0% {
-    background-position: 0;
-  }
-  17% {
-    background-position: -182px;
-  }
-  34% {
-    background-position: -364px;
-  }
-  51% {
-    background-position: -546px;
-  }
-  68% {
-    background-position: -728px;
-  }
-  84% {
-    background-position: -910px;
-  }
-}
-#sprite-container {
-  height: 220px;
-  position: relative;
-  width: 182px;
-  margin-left: auto;
-  z-index: -3;
-  display: flex;
-  justify-content: flex-end;
+.contact-page main {
+  margin-top: 280px;
 }
 
-.sprite {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: right;
-  opacity: 0;
-  -webkit-backface-visibility: hidden;
-  /* IOS Flicker fix */
-  -webkit-transform: translate3d(0, 0, 0);
+.contact-page h3 {
+  font-size: 44px;
 }
-
-#sprite-still {
-  background-image: url("assets/little-clem.png");
+.contact-page h4 {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: right;
+  padding: 0 20px;
 }
-
-#sprite-walk-down {
-  background-image: url("assets/walking-down/down-spritesheet.png");
-  animation: WALK 0.8s infinite step-end;
-  -webkit-animation: WALK 0.8s infinite step-end;
+.contact-page label {
+  font-weight: 100;
+  display: block;
+  text-align: right;
+  padding: 10px 20px 0;
 }
-
-#sprite-walk-up {
-  background-image: url("assets/walking-up/up-spritesheet.png");
-  animation: WALK 0.8s infinite step-end;
-  -webkit-animation: WALK 0.8s infinite step-end;
-}
-
-.sprite.active {
-  opacity: 1;
+.contact-page footer {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 600px) {
-  #sprite-container {
-    position: fixed;
-    left: 10%;
+  .contact-page h3, .contact-page h4, .contact-page label {
+    text-align: center;
   }
-}
-@media (min-width: 900px) {
-  #sprite-container {
-    left: 20%;
+  .contact-page h4 {
+    margin: 5px 25px;
   }
 }
 body {
@@ -592,20 +631,13 @@ body {
 }
 
 .page-wrapper {
+  position: relative;
   width: 100%;
   min-height: 100vh;
 }
 
 main {
   margin-top: 105px;
-}
-
-.about-page main {
-  margin-top: 170px;
-}
-
-.contact-page main {
-  margin-top: 280px;
 }
 
 .home-page .page-wrapper {
@@ -640,14 +672,6 @@ h3 {
   text-align: right;
 }
 
-.about-page h3 {
-  margin-top: 5px;
-}
-
-.contact-page h3 {
-  font-size: 44px;
-}
-
 h3.work {
   margin-bottom: 0;
 }
@@ -657,23 +681,9 @@ h4 {
   margin: 45px 0 5px;
 }
 
-.contact-page h4 {
-  font-size: 24px;
-  font-weight: 100;
-  text-align: right;
-  padding: 0 20px;
-}
-
 h5 {
   font-size: 19px;
   margin: 35px 0 15px;
-}
-
-.contact-page label {
-  font-weight: 100;
-  display: block;
-  text-align: right;
-  padding: 10px 20px 0;
 }
 
 .blurb-container {
@@ -816,6 +826,10 @@ h5 {
   opacity: 0.97;
 }
 
+.footer-spacer {
+  height: 70px;
+}
+
 .projects-container {
   padding: 0 20px;
 }
@@ -860,7 +874,9 @@ h5 {
   }
 }
 footer {
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 10px;
   height: 50px;
   background: rgba(255, 255, 255, 0.5);
@@ -871,6 +887,10 @@ footer p {
   opacity: 0.4;
   font-weight: 100;
   text-align: center;
+}
+
+.home-page footer {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 900px) {
