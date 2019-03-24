@@ -109,12 +109,20 @@ I also like to experiment with pixel art and had created a small avatar of mysel
 
 ##### Colour
 
-The colour scheme I decided on was quite a bright one. I wanted three primary colours that would stand out and two very muted ones to support them.
+The colour scheme I decided on was quite a bright one. I wanted three primary colours that would stand out and two very muted ones to support them. The complimentary pairing of blue and orange was my starting point, and the red brought a nice contrast to the trio.<br>
 <img src="docs/colour-palette.png" />
 
 ##### Logo
 Another important design element was my logo. Using my initials as a starting point, and incorporating the colour palette, this is what I came up with.
-<img src="docs/logo-progression.jpg" />
+<img width="500px" src="docs/logo-progression.jpg" />
+I was able to turn this into an SVG so that I could affect each segment individually with CSS. Here is an example from the finished site:
+
+<img width="250px" src="docs/logo-hover.png" />
+
+*Logo effect on hover*
+<br>
+
+
 
 ### Wireframes
 
