@@ -7,6 +7,7 @@
 @import 'logo';
 
 @import 'about';
+@import 'blog';
 @import 'sprite';
 
 body {
@@ -282,6 +283,20 @@ h5 {
     }
     .last-name {
         display: inline;
+    }
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    height: 50px;
+    background:rgba(255, 255, 255, 0.5);
+    p {
+        font-size: 13px;
+        color: $text-color;
+        opacity: .4;
+        font-weight: 100;
+        text-align: center;
     }
 }
 
