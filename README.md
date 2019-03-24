@@ -84,11 +84,10 @@ For the whole project I used Trello as a project management application.
 - DUE: Sunday - 22:00
 
 ## Design Process
--------
 
 Before starting any design at all, I mapped out the content that would need to be displayed on the site. Using trello to brainstorm, I got a pretty good idea of the total amount of content that would potentially be included in the final product. After this point I could start to prioritise the content in my head and get started on the wireframes.
 
-<img alt="Image of Trello board: Content Planning" align="left" width="100%" src="docs/content-planning.png" />
+<img alt="Image of Trello board: Content Planning" width="100%" src="docs/content-planning.png" />
 
 ### Inspiration & Moodboarding
 
@@ -96,7 +95,7 @@ My initial inspiration for the mood of the design came from the style of designe
 
 <img src="docs/vignelli.png" />
 
-##### Mood Board
+#### Mood Board
 <img src="docs/pinterest.png" />
 
 I also like to experiment with pixel art and had created a small avatar of myself (pictured below) that I wanted to incorporate, largely inspired by the pixel style of the Super Nintendo game "Chrono Trigger". 
@@ -132,22 +131,55 @@ I translated these into some slightly higher fidelity digital wireframes (pictur
 <img src="docs/wireframes-v2.png">
 
 
-
 <!--
-Screenshots of finished website-->
+Usability considerations -->
+
+## Screenshots of the finished website:
+### Desktop
 <img src="docs/desktop-home.png" />
-<img src="docs/mobile-home/png" />
 <img src="docs/desktop-about.png/" />
-<img src="docs/mobile-about.png" />
-<img src="docs/mobile-menu.png" />
+### Tablet
+<img width="45%" style="display: inline" src="docs/ipad-home.png" />
+<img width="45%" style="display: inline" src="docs/ipad-about.png" />
+### Mobile
+<img width="30%" style="display: inline" src="docs/mobile-home.png" />
+<img width="30%" style="display: inline" src="docs/mobile-about.png" />
+<img width="30%" style="display: inline" src="docs/mobile-menu.png" />
 
-<!--
-Usability considerations
-Details of planning process including,
-Project plan & timeline
-Screenshots of Trello board(s)
-Short Answer Q&A - Include short answers to the following questions,
+## Screenshots of working on Trello:
+<img src="docs/trello1.png" />
+<img src="docs/trello2.png" />
+
+## Short Answer Q&A
+
+```
 Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words) -->
+```
 
+Before the 1980s, internet networks were primarily intended for military use. The first network intended for non-government use was called CSNET and by 1982 it connected 24 global sites (universities and other research centres). It was then that the Domain Name System was introduced, shortly followed by suffixes such as .com and .gov.
+
+In 1989, Tim Berners-Lee proposed and created a network standardization that allowed different computers on the network to access the same "websites". This was called the hypertext transfer protocol and was the beginning of the word wide web (www).
+
+In 1990, the first search engine was created and in 1993, the first web browser was released. By this time, the internet was starting to be used by the greater public. 
+
+In 1996, the first mobile phone with internet access was released by Nokia.
+
+
+```
+Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+```
+
+Each computer that uses the internet protocol has an IP address. An IP is a unique string of numbers separated by full stops. It identifies one particular computer.
+
+DNS (Domain Name System) is a way of pointing to one or more IP addresses on a network with a single address (Domain Name). This makes it easier to access websites with a memorable word, rather than a string of numbers. 
+
+Web servers is a system that delivers website content to users via internet protocols such as http. It usually resides on a dedicated computer. Once a domain name or IP address is requested and retrieved by the web server, browsers receive the information and render the content to the user's device in a standardised way. 
+
+
+```
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+```
+
+The instantaneous accessibility of information provided by internet transfer protocols has contributed to society in profound ways. Education is more accessible than ever before, with thousands of courses and talks on every topic imaginable online in every language. Students and workers are able to collaborate online on a real-time basis, even if they are on opposite sides of the world.
+
+Teachers, who may not have had the opportunity to share their knowledge otherwise (at least on this sort of scale), can communicate to hundreds of thousands of people at the click of a button, and receive almost immediate feedback and collaboration . Of course, as with anything, this can also have its downsides, but with proper consideration for security, the benefits to society are immeasurable.
