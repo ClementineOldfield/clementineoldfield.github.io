@@ -171,7 +171,7 @@ Define and describes the relationship between fundamental aspects of the interne
 
 Each computer that uses the internet protocol has an IP address. An IP is a unique string of numbers separated by full stops. It identifies one particular computer.
 
-DNS (Domain Name System) is a way of pointing to one or more IP addresses on a network with a single address (Domain Name). This makes it easier to access websites with memorable word, rather than a string of numbers. 
+DNS (Domain Name System) is a way of pointing to one or more IP addresses on a network with a single address (Domain Name). This makes it easier to access websites with a memorable word, rather than a string of numbers. 
 
 Web servers is a system that delivers website content to users via internet protocols such as http. It usually resides on a dedicated computer. Once a domain name or IP address is requested and retrieved by the web server, browsers receive the information and render the content to the user's device in a standardised way. 
 
@@ -180,3 +180,6 @@ Web servers is a system that delivers website content to users via internet prot
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 ```
 
+The instantaneous accessibility of information provided by internet transfer protocols has contributed to society in profound ways. Education is more accessible than ever before, with thousands of courses and talks on every topic imaginable online in every language. Students and workers are able to collaborate online on a real-time basis, even if they are on opposite sides of the world.
+
+Teachers, who may not have had the opportunity to share their knowledge otherwise (at least on this sort of scale), can communicate to hundreds of thousands of people at the click of a button, and receive almost immediate feedback and collaboration . Of course, as with anything, this can also have its downsides, but with proper consideration for security, the benefits to society are immeasurable.
