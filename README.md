@@ -96,7 +96,7 @@ My initial inspiration for the mood of the design came from the style of designe
 
 <img src="docs/vignelli.png" />
 
-##### Mood Board
+#### Mood Board
 <img src="docs/pinterest.png" />
 
 I also like to experiment with pixel art and had created a small avatar of myself (pictured below) that I wanted to incorporate, largely inspired by the pixel style of the Super Nintendo game "Chrono Trigger". 
@@ -132,20 +132,41 @@ I translated these into some slightly higher fidelity digital wireframes (pictur
 <img src="docs/wireframes-v2.png">
 
 
-
 <!--
-Screenshots of finished website-->
+Usability considerations -->
+
+## Screenshots of the finished website:
+### Desktop
 <img src="docs/desktop-home.png" />
-<img src="docs/mobile-home/png" />
 <img src="docs/desktop-about.png/" />
-<img src="docs/mobile-about.png" />
-<img src="docs/mobile-menu.png" />
+### Tablet
+<img width="45%" style="display: inline" src="docs/ipad-home.png" />
+<img width="45%" style="display: inline" src="docs/ipad-about.png" />
+### Mobile
+<img width="30%" style="display: inline" src="docs/mobile-home.png" />
+<img width="30%" style="display: inline" src="docs/mobile-about.png" />
+<img width="30%" style="display: inline" src="docs/mobile-menu.png" />
+
+## Screenshots of working on Trello:
+<img src="docs/trello1.png" />
+<img src="docs/trello2.png" />
+
+## Short Answer Q&A
+
+```
+Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+```
+
+```
+Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+```
+
+```
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+```
+
 
 <!--
-Usability considerations
-Details of planning process including,
-Project plan & timeline
-Screenshots of Trello board(s)
 Short Answer Q&A - Include short answers to the following questions,
 Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
