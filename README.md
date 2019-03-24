@@ -99,10 +99,12 @@ My initial inspiration for the mood of the design came from the style of designe
 <img src="docs/vignelli.png" />
 
 I wanted to emulate the bright contrasting colours alongside the minimalist style. 
+
 #####Mood Board
 <img src="docs/pinterest.png" />
 
 I also like to experiment with pixel art and had created a small avatar of myself (pictured below) that I wanted to incorporate, largely inspired by the pixel style of the Super Nintendo game "Chrono Trigger". 
+
 <img src="docs/avatar.png" />
 
 ##### Colour
@@ -120,11 +122,11 @@ My initial wireframes were very rough. I wanted to go for a minimalist design to
 
 
 #### Hand Drawn Wireframes
-<img align="left" width="64%" src="docs/basic-wireframe-1.JPG" />
-<img align="right" width="36%" src="docs/basic-wireframe-2.JPG" />
-
+<img src="docs/wireframes-v1.png"/>
 <br>
+
 I translated these into some slightly higher fidelity digital wireframes (pictured below). At this point I could get a better idea of the size of the content within the page. I focused on the mobile design first and was happy with how this helped me to strip down my design and make it as minimal as possible.
+
 
 <img src="docs/wireframes-v2.png">
 
