@@ -835,10 +835,6 @@ h5 {
   opacity: 0.97;
 }
 
-.footer-spacer {
-  height: 70px;
-}
-
 .project-image {
   background-size: 105%;
 }
@@ -882,26 +878,27 @@ h5 {
     display: inline;
   }
 }
+/*
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.5);
-}
-footer p {
-  font-size: 13px;
-  color: #223843;
-  opacity: 0.4;
-  font-weight: 100;
-  text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    background:rgba(255, 255, 255, 0.5);
+    p {
+        font-size: 13px;
+        color: $text-color;
+        opacity: .4;
+        font-weight: 100;
+        text-align: center;
+    }
 }
 
 .home-page footer {
-  background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
-
+*/
 @media (min-width: 900px) {
   footer ul.desktop-social {
     position: fixed;
