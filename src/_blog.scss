@@ -3,19 +3,27 @@
     flex-wrap: wrap;
 }
 
-.blog-content {
+article.blog-content {
     flex: 3;
     min-width: 320px;
     padding: 0 20px;
+
 }
 
 @media(min-width: 517px){
-    .blog-content {
+    article.blog-content {
         min-width: 517px;
+        padding: 50px;
+        text-align: right;
     }
 }
 
 .sidebar {
     flex: 1;
-    padding: 0 20px;
+    padding: 35px 20px;
+}
+
+
+.test {
+    
 }

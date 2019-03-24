@@ -390,106 +390,6 @@ nav {
     top: 35px;
   }
 }
-#about-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#about-container .text-container {
-  flex: 1;
-}
-
-@media (min-width: 600px) {
-  #about-container h3,
-#about-container .blurb {
-    text-align: left;
-  }
-  #about-container p.blurb {
-    width: 80%;
-  }
-}
-@media (min-width: 900px) {
-  #about-container p.blurb {
-    width: 70%;
-  }
-}
-ul.techs,
-ul.uxui,
-ul.software,
-ul.hobbies {
-  list-style: none;
-  margin-top: 0;
-}
-ul.techs li,
-ul.uxui li,
-ul.software li,
-ul.hobbies li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-ul.education,
-ul.employment {
-  list-style: none;
-}
-
-ul.hobbies {
-  margin: 30px 0;
-}
-
-ul.adobe-list li {
-  display: block;
-}
-
-.education a,
-.employment a {
-  color: #223843;
-  text-decoration: none;
-  font-weight: 600;
-}
-.education li,
-.employment li {
-  margin: 22px 0;
-}
-.education span,
-.employment span {
-  margin: 0 10px;
-}
-.education span.year,
-.employment span.year {
-  font-style: italic;
-  margin-left: 15px;
-}
-.education span.job-location,
-.employment span.job-location {
-  font-weight: 500;
-}
-.education span.job-description,
-.employment span.job-description {
-  font-style: italic;
-}
-
-.blog-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.blog-content {
-  flex: 3;
-  min-width: 320px;
-  padding: 0 20px;
-}
-
-@media (min-width: 517px) {
-  .blog-content {
-    min-width: 517px;
-  }
-}
-.sidebar {
-  flex: 1;
-  padding: 0 20px;
-}
-
 @keyframes WALK {
   0% {
     background-position: 0;
@@ -584,6 +484,147 @@ ul.adobe-list li {
     left: 20%;
   }
 }
+.about-page main {
+  margin-top: 170px;
+}
+
+.about-page h3 {
+  margin-top: 5px;
+}
+
+#about-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about-container .text-container {
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  #about-container h3,
+#about-container .blurb {
+    text-align: left;
+  }
+  #about-container p.blurb {
+    width: 80%;
+  }
+}
+@media (min-width: 900px) {
+  #about-container p.blurb {
+    width: 70%;
+  }
+}
+ul.techs,
+ul.uxui,
+ul.software,
+ul.hobbies {
+  list-style: none;
+  margin-top: 0;
+}
+ul.techs li,
+ul.uxui li,
+ul.software li,
+ul.hobbies li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+ul.education,
+ul.employment {
+  list-style: none;
+}
+
+ul.hobbies {
+  margin: 30px 0;
+}
+
+ul.adobe-list li {
+  display: block;
+}
+
+.education a,
+.employment a {
+  color: #223843;
+  text-decoration: none;
+  font-weight: 600;
+}
+.education li,
+.employment li {
+  margin: 22px 0;
+}
+.education span,
+.employment span {
+  margin: 0 10px;
+}
+.education span.year,
+.employment span.year {
+  font-style: italic;
+  margin-left: 15px;
+}
+.education span.job-location,
+.employment span.job-location {
+  font-weight: 500;
+}
+.education span.job-description,
+.employment span.job-description {
+  font-style: italic;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article.blog-content {
+  flex: 3;
+  min-width: 320px;
+  padding: 0 20px;
+}
+
+@media (min-width: 517px) {
+  article.blog-content {
+    min-width: 517px;
+    padding: 50px;
+    text-align: right;
+  }
+}
+.sidebar {
+  flex: 1;
+  padding: 35px 20px;
+}
+
+.contact-page main {
+  margin-top: 280px;
+}
+
+.contact-page h3 {
+  font-size: 44px;
+}
+.contact-page h4 {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: right;
+  padding: 0 20px;
+}
+.contact-page label {
+  font-weight: 100;
+  display: block;
+  text-align: right;
+  padding: 10px 20px 0;
+}
+.contact-page footer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media (min-width: 600px) {
+  .contact-page h3, .contact-page h4, .contact-page label {
+    text-align: center;
+  }
+  .contact-page h4 {
+    margin: 5px 25px;
+  }
+}
 body {
   background-color: #FCF2ED;
   font-family: helvetica;
@@ -592,20 +633,13 @@ body {
 }
 
 .page-wrapper {
+  position: relative;
   width: 100%;
   min-height: 100vh;
 }
 
 main {
   margin-top: 105px;
-}
-
-.about-page main {
-  margin-top: 170px;
-}
-
-.contact-page main {
-  margin-top: 280px;
 }
 
 .home-page .page-wrapper {
@@ -640,14 +674,6 @@ h3 {
   text-align: right;
 }
 
-.about-page h3 {
-  margin-top: 5px;
-}
-
-.contact-page h3 {
-  font-size: 44px;
-}
-
 h3.work {
   margin-bottom: 0;
 }
@@ -657,23 +683,9 @@ h4 {
   margin: 45px 0 5px;
 }
 
-.contact-page h4 {
-  font-size: 24px;
-  font-weight: 100;
-  text-align: right;
-  padding: 0 20px;
-}
-
 h5 {
   font-size: 19px;
   margin: 35px 0 15px;
-}
-
-.contact-page label {
-  font-weight: 100;
-  display: block;
-  text-align: right;
-  padding: 10px 20px 0;
 }
 
 .blurb-container {
@@ -693,6 +705,13 @@ h5 {
 
 .work-page .blurb {
   padding-right: 20px;
+}
+
+.work-page h3 {
+  padding: 10px 10px 0 0;
+}
+.work-page .blurb {
+  padding: 30px 30px 0 0;
 }
 
 #tag {
@@ -816,24 +835,28 @@ h5 {
   opacity: 0.97;
 }
 
-.projects-container {
-  padding: 0 20px;
-}
-.projects-container .project-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 2px;
+.footer-spacer {
+  height: 70px;
 }
 
-.project-1 .project-image {
-  background-image: url(assets/projects/pokemon-app.png);
+.project-image {
   background-size: 105%;
 }
 
-.project-2 .project-image,
-.project-3 .project-image,
-.project-4 .project-image {
-  background-image: url(https://via.placeholder.com/350);
+#project-1 .project-image {
+  background-image: url(assets/projects/pokemon-app.png);
+}
+
+#project-2 .project-image {
+  background-image: url(assets/projects/allegra-music.jpg);
+}
+
+#project-3 .project-image {
+  background-image: url(assets/projects/companybox.png);
+}
+
+#project-4 .project-image {
+  background-image: url(assets/projects/big-sur.png);
 }
 
 .left-col {
@@ -860,7 +883,9 @@ h5 {
   }
 }
 footer {
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 10px;
   height: 50px;
   background: rgba(255, 255, 255, 0.5);
@@ -871,6 +896,10 @@ footer p {
   opacity: 0.4;
   font-weight: 100;
   text-align: center;
+}
+
+.home-page footer {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 900px) {
@@ -917,9 +946,19 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0 20px;
+}
+.projects-container a {
+  color: #223843;
+  text-decoration: none;
 }
 .projects-container .project {
   width: 100%;
+}
+.projects-container .project-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 2px;
 }
 
 @media (min-width: 900px) {

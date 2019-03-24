@@ -1,0 +1,39 @@
+
+.contact-page main {
+    margin-top: 280px;
+}
+
+.contact-page {
+    h3 {
+        font-size: 44px;
+    }
+    
+    h4 {
+        font-size: 24px;
+        font-weight: 100;
+        text-align: right;
+        padding: 0 20px;
+    }
+    
+    label {
+        font-weight: 100;
+        display: block;
+        text-align: right;
+        padding: 10px 20px 0;
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media(min-width: $small){
+    .contact-page {
+        h3, h4, label {
+            text-align: center;
+        }
+        h4 {
+            margin: 5px 25px;
+        }
+    }
+}
