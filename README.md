@@ -84,11 +84,10 @@ For the whole project I used Trello as a project management application.
 - DUE: Sunday - 22:00
 
 ## Design Process
--------
 
 Before starting any design at all, I mapped out the content that would need to be displayed on the site. Using trello to brainstorm, I got a pretty good idea of the total amount of content that would potentially be included in the final product. After this point I could start to prioritise the content in my head and get started on the wireframes.
 
-<img alt="Image of Trello board: Content Planning" align="left" width="100%" src="docs/content-planning.png" />
+<img alt="Image of Trello board: Content Planning" width="100%" src="docs/content-planning.png" />
 
 ### Inspiration & Moodboarding
 
@@ -157,18 +156,27 @@ Usability considerations -->
 Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 ```
 
+Before the 1980s, internet networks were primarily intended for military use. The first network intended for non-government use was called CSNET and by 1982 it connected 24 global sites (universities and other research centres). It was then that the Domain Name System was introduced, shortly followed by suffixes such as .com and .gov.
+
+In 1989, Tim Berners-Lee proposed and created a network standardization that allowed different computers on the network to access the same "websites". This was called the hypertext transfer protocol and was the beginning of the word wide web (www).
+
+In 1990, the first search engine was created and in 1993, the first web browser was released. By this time, the internet was starting to be used by the greater public. 
+
+In 1996, the first mobile phone with internet access was released by Nokia.
+
+
 ```
 Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 ```
+
+Each computer that uses the internet protocol has an IP address. An IP is a unique string of numbers separated by full stops. It identifies one particular computer.
+
+DNS (Domain Name System) is a way of pointing to one or more IP addresses on a network with a single address (Domain Name). This makes it easier to access websites with memorable word, rather than a string of numbers. 
+
+Web servers is a system that delivers website content to users via internet protocols such as http. It usually resides on a dedicated computer. Once a domain name or IP address is requested and retrieved by the web server, browsers receive the information and render the content to the user's device in a standardised way. 
+
 
 ```
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 ```
-
-
-<!--
-Short Answer Q&A - Include short answers to the following questions,
-Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words) -->
 
