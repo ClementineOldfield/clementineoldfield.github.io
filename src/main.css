@@ -859,6 +859,20 @@ h5 {
     display: inline;
   }
 }
+footer {
+  margin-top: 50px;
+  padding: 10px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.5);
+}
+footer p {
+  font-size: 13px;
+  color: #223843;
+  opacity: 0.4;
+  font-weight: 100;
+  text-align: center;
+}
+
 @media (min-width: 900px) {
   footer ul.desktop-social {
     position: fixed;
