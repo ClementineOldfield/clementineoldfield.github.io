@@ -20,9 +20,17 @@ Purpose
 Functionality / features -->
 
 ---------
-## Site Description ( aim )
+## Project Aim
 
+```
 A website that will showcase my talent, abilities and coding experience.
+
+The site should be responsive, accessible and have a pleasing design. The content will include:
+- My contact details.
+- A link to my Github & Linkedin.
+- Information about me to demonstrate my personality
+- My study & work history
+```
 
 ## Functionality / Features
 ### Sitemap
