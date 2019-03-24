@@ -576,20 +576,22 @@ ul.adobe-list li {
   flex-wrap: wrap;
 }
 
-.blog-content {
+article.blog-content {
   flex: 3;
   min-width: 320px;
   padding: 0 20px;
 }
 
 @media (min-width: 517px) {
-  .blog-content {
+  article.blog-content {
     min-width: 517px;
+    padding: 50px;
+    text-align: right;
   }
 }
 .sidebar {
   flex: 1;
-  padding: 0 20px;
+  padding: 35px 20px;
 }
 
 .contact-page main {
@@ -703,6 +705,13 @@ h5 {
 
 .work-page .blurb {
   padding-right: 20px;
+}
+
+.work-page h3 {
+  padding: 10px 10px 0 0;
+}
+.work-page .blurb {
+  padding: 30px 30px 0 0;
 }
 
 #tag {
@@ -830,24 +839,24 @@ h5 {
   height: 70px;
 }
 
-.projects-container {
-  padding: 0 20px;
-}
-.projects-container .project-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 2px;
-}
-
-.project-1 .project-image {
-  background-image: url(assets/projects/pokemon-app.png);
+.project-image {
   background-size: 105%;
 }
 
-.project-2 .project-image,
-.project-3 .project-image,
-.project-4 .project-image {
-  background-image: url(https://via.placeholder.com/350);
+#project-1 .project-image {
+  background-image: url(assets/projects/pokemon-app.png);
+}
+
+#project-2 .project-image {
+  background-image: url(assets/projects/allegra-music.jpg);
+}
+
+#project-3 .project-image {
+  background-image: url(assets/projects/companybox.png);
+}
+
+#project-4 .project-image {
+  background-image: url(assets/projects/big-sur.png);
 }
 
 .left-col {
@@ -937,9 +946,19 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0 20px;
+}
+.projects-container a {
+  color: #223843;
+  text-decoration: none;
 }
 .projects-container .project {
   width: 100%;
+}
+.projects-container .project-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 2px;
 }
 
 @media (min-width: 900px) {
