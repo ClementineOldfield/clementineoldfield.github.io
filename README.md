@@ -136,12 +136,15 @@ I translated these into some slightly higher fidelity digital wireframes (pictur
 Usability considerations -->
 
 ## Screenshots of the finished website:
+
 ### Desktop
 <img src="docs/desktop-home.png" />
 <img src="docs/desktop-about.png/" />
+
 ### Tablet
 <img width="45%" style="display: inline" src="docs/ipad-home.png" />
 <img width="45%" style="display: inline" src="docs/ipad-about.png" />
+
 ### Mobile
 <img width="30%" style="display: inline" src="docs/mobile-home.png" />
 <img width="30%" style="display: inline" src="docs/mobile-about.png" />
