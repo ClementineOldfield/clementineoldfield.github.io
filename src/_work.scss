@@ -1,0 +1,91 @@
+.work-page,
+.page-template-work {
+  .blurb {
+    padding-right: 20px;
+  }
+}
+
+.work-page,
+.page-template-work {
+  h3,
+  h4 {
+    text-align: center;
+  }
+
+  h3 {
+    padding: 70px 10px 0 0;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .projects {
+    margin-top: 80px;
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+
+    .project {
+      margin-top: 90px;
+    }
+
+    .title {
+      font-weight: 100;
+    }
+
+    ul.tags {
+      list-style: none;
+      font-weight: 100;
+      font-size: 10pt;
+      text-align: center;
+      margin-top: 15px;
+
+      li {
+        display: inline-block;
+        margin: 5px 12px;
+        background-color: rgba(150, 150, 150, 0.2);
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    }
+
+    .project-image {
+      width: 90%;
+      height: 240px;
+      margin: 30px auto;
+      background-color: #fff;
+      box-shadow: 2px 5px 5px rgba(100, 100, 100, 0.3);
+    }
+    .project-image.project-1 {
+      background-image: url("./assets/projects/barrio.png");
+    }
+    .project-image.project-2 {
+      background-image: url("./assets/projects/allegramusic.png");
+    }
+    .project-image.project-3 {
+      background-image: url("./assets/projects/bigsur.png");
+    }
+    .project-image.project-4 {
+      background-image: url("./assets/projects/sfs-blur.png");
+      background-position: center;
+    }
+    .project-image.project-5 {
+      background-image: url("./assets/projects/food-ladder.png");
+    }
+  }
+}
+
+@media (min-width: $med) {
+  .work-page,
+  .page-template-work {
+    .projects {
+      .project-image {
+        width: 50%;
+        height: 350px;
+      }
+    }
+  }
+}

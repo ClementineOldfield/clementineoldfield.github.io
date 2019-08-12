@@ -60,7 +60,7 @@
                         <ul>
                             <a href="about.html"><li>About.</li></a>
                             <a href="work.html"><li>Work.</li></a>
-                            <a href="blog.html"><li>Blog.</li></a>
+                            <!-- <a href="blog.html"><li>Blog.</li></a> -->
                             <a href="contact.html"><li>Contact.</li></a>
                         </ul>
                         <table class="social-bar mobile-social">
@@ -80,91 +80,140 @@
         <main>
             <div id="about-container">
                 <div class="left-col">
-                    <div id="sprite-container">
-                        <div class="sprite active" id="sprite-still"></div>
-                        <div class="sprite" id="sprite-walk-down"></div>
-                        <div class="sprite" id="sprite-walk-up"></div>
-                    </div>
+                  <div id="sprite-container">
+                    <div class="sprite active" id="sprite-still"></div>
+                    <div class="sprite" id="sprite-walk-down"></div>
+                    <div class="sprite" id="sprite-walk-up"></div>
+                  </div>
                 </div>
                 <div class="text-container">
-                    <h3>About Me.</h3>
-                    <div class="blurb-container">
-                        <p class="blurb big">
-                            Hi! I'm Clem.
-                        </p>
-                        <p class="blurb big">
-                            I'm a web and software developer based in Sydney, Australia. 
-                        </p>
-                        <h4 class="subheader">Skills.</h4>   
-                        <h5>Programming Languages:</h5> 
+                  <h3>About Me.</h3>
+                  <div class="blurb-container">
+                    <p class="blurb big">
+                      Hi! I'm Clem.
+                    </p>
+                    <p class="blurb big">
+                      I'm a web and software developer based in Sydney, Australia. 
+                    </p>
+                    <h4 class="subheader">Technical Skills.</h4>
+                    <h5>Programming:</h5>
+                    <ul class="programming">
+                      <li>
                         <ul class="techs blurb">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Javascript</li>
-                            <li>Ruby</li>
+                          <li>HTML5</li>
+                          <li>CSS3</li>
+                          <li>Sass</li>
+                          <li>Bootstrap</li>
                         </ul>
-                        <h5>UX/UI:</h5>
-                        <ul class="uxui blurb">
-                            <li>Wireframing</li>
-                            <li>Mockups</li>
-                            <li>User Testing</li>
+                      </li>
+                      <li>
+                        <ul class="techs blurb js-stack">
+                          <li>Javascript</li>
+                          <li>Typescript</li>
+                          <li>React</li>
+                          <li>Express</li>
+                          <li>Redux</li>
+                          <li>Node JS</li>
                         </ul>
-                        <h5>Software:</h5>
-                        <ul class="software blurb">
-                            <ul>
-                                <li>Adobe:
-                                    <ul class="adobe-list">
-                                        <li>Photoshop</li>
-                                        <li>Illustrator</li>
-                                        <li>Indesign</li>
-                                        <li>Premiere Pro</li>
-                                    </ul>
-                                </li>
-                            </ul>
+                      </li>
+                      <li>
+                        <ul class="techs blurb">
+                            <li>Styled Components</li>
+                            <li>Theme UI</li>
+                            <li>Gatsby</li>
                         </ul>
-                        <h4 class="subheader">Hobbies.</h4>
-                        <ul class="hobbies blurb">
-                            <li>Piano</li>
-                            <li>Pixel Art</li>
-                            <li>Baking</li>
-                            <li>Homebrewing Sake</li>
+                        </li>
+                      <li>
+                        <ul class="techs blurb ruby-stack">
+                          <li>Ruby</li>
+                          <li>Ruby on Rails</li>
                         </ul>
-                        <h4 class="subheader">Education.</h4>
-                        <ul class="education blurb">
-                            <li>Fast Track Bootcamp @ <a href="https://coderacademy.edu.au/">Coder Academy</a>.<span class="year">In Progress.</span></li>
-                            <li>Bachelor of Design Computing @ <a href="#">The University of Sydney</a><span class="year">2015 - 2016 (incomplete)</span></li>
-                            <li>Diploma of Screen & Media @ <a href="https://www.sydneyfilmschool.com/">Sydney Film School</a>.<span class="year">2011</span></li>
+                      </li>
+                      <li>
+                        <ul class="techs blurb php-stack">
+                          <li>PHP</li>
+                          <li>Wordpress</li>
                         </ul>
-                        <h4 class="subheader">Recent Employers.</h4>
-                        <ul class="employment blurb">
-                            <li>
-                                <span class="employer">Bucket Boys</span>
-                                <span class="job-location">Marrickville, Sydney</span>
-                                <span class="job-year">2018 - 2019</span>
-                                <span class="job-description">I sell craft beer here.</span>
-                            </li>
-                            <li>
-                                <span class="employer">La Cabane</span>
-                                <span class="job-location">Hong Kong</span>
-                                <span class="job-year">2017 - 2018</span>
-                                <span class="job-description">I sold natural wine here.</span>
-                            </li>
-                            <li>
-                                <span class="employer">The Henson</span>
-                                <span class="job-location">Marrickville, Sydney</span>
-                                <span class="job-year">2016 - 2017</span>
-                                <span class="job-description">I slung drinks here.</span>
-                            </li>
-                            <li>
-                                <span class="employer">Sydney Film School</span>
-                                <span class="job-location">Redfern, Sydney</span>
-                                <span class="job-year">2012 - 2014</span>
-                                <span class="job-description">Communications Manager</span>
-                            </li>
+                      </li>
+                      <li>
+                        <ul class="techs blurb db-stack">
+                          <li>SQL</li>
+                          <li>Postgresql</li>
+                          <li>MongoDB</li>
                         </ul>
-                    </div>
-                </div>  
-            </div>
+                      </li>
+                      <li>
+                        <ul class="techs blurb test-stack">
+                          <li>Automated & Manual Testing</li>
+                          <li>Jest</li>
+                          <li>Cypress</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h5>UX/UI:</h5>
+                    <ul class="uxui blurb">
+                      <li>Wireframing</li>
+                      <li>Mockups</li>
+                      <li>User Testing</li>
+                    </ul>
+                    <h5>Software:</h5>
+                    <ul class="software blurb">
+                      <ul>
+                        <li>
+                          Adobe:
+                          <ul class="adobe-list">
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Indesign</li>
+                            <li>Premiere Pro</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <h4 class="subheader">Hobbies.</h4>
+                    <ul class="hobbies blurb">
+                      <li>Piano</li>
+                      <li>Pixel Art</li>
+                      <li>Baking</li>
+                      <li>Homebrewing</li>
+                    </ul>
+                    <h4 class="subheader">Education.</h4>
+                    <ul class="education blurb">
+                      <li>Fast Track Bootcamp @ <a href="https://coderacademy.edu.au/">Coder Academy</a>.<span class="year">2019.</span></li>
+                      <li>Bachelor of Design Computing @ <a href="#">The University of Sydney</a><span class="year">2015 - 2016 (Deferred)</span></li>
+                      <li>Diploma of Screen & Media @ <a href="https://www.sydneyfilmschool.com/">Sydney Film School</a>.<span class="year">2011</span></li>
+                    </ul>
+                    <h4 class="subheader">Recent Employers.</h4>
+                    <ul class="employment blurb">
+                      <li>
+                        <span class="employer">Bucket Boys</span>
+                        <span class="job-location">Marrickville, Sydney</span>
+                        <span class="job-year">2018 - 2019</span>
+                        <span class="job-description">I sell craft beer here.</span>
+                      </li>
+                      <li>
+                        <span class="employer">La Cabane</span>
+                        <span class="job-location">Hong Kong</span>
+                        <span class="job-year">2017 - 2018</span>
+                        <span class="job-description">I sold natural wine here.</span>
+                      </li>
+                      <li>
+                        <span class="employer">The Henson</span>
+                        <span class="job-location">Marrickville, Sydney</span>
+                        <span class="job-year">2016 - 2017</span>
+                        <span class="job-description">I slung drinks here.</span>
+                      </li>
+                      <li>
+                        <span class="employer">Sydney Film School</span>
+                        <span class="job-location">Redfern, Sydney</span>
+                        <span class="job-year">2012 - 2014</span>
+                        <span class="job-description">Communications Manager</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
         </main>
         <footer>
             <ul class="social-media-bar desktop-social">
