@@ -7,6 +7,7 @@
   top: 60px;
   left: 30px;
   position: absolute;
+  z-index: 3;
 }
 
 .home-page #logo-container {
@@ -72,7 +73,6 @@
 
 @media (min-width: $med) {
   #logo-container {
-    z-index: 1;
     opacity: 1;
     width: 100px;
     position: fixed;

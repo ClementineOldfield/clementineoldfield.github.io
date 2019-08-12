@@ -185,7 +185,7 @@ table {
   border-spacing: 0; }
 
 nav {
-  z-index: 1;
+  z-index: 3;
   position: absolute;
   top: 0;
   right: 0;
@@ -194,7 +194,6 @@ nav {
 #menu {
   width: 100%;
   height: 100vh;
-  z-index: 1;
   background-color: #223843;
   display: inline-block;
   padding: 50px 50px 50px 30px;
@@ -281,7 +280,8 @@ nav {
   align-items: center;
   top: 60px;
   left: 30px;
-  position: absolute; }
+  position: absolute;
+  z-index: 3; }
 
 .home-page #logo-container {
   position: static;
@@ -326,7 +326,6 @@ nav {
 
 @media (min-width: 900px) {
   #logo-container {
-    z-index: 1;
     opacity: 1;
     width: 100px;
     position: fixed;
@@ -467,7 +466,7 @@ ul.programming {
   ul.programming li {
     transition: 0.5s; }
     ul.programming li:hover {
-      opacity: 1 !important; }
+      opacity: 1; }
 
 ul.education,
 ul.employment {
@@ -644,6 +643,9 @@ h1 {
   position: fixed;
   margin: 15px 0 0 20px; }
 
+h1#name {
+  z-index: 4; }
+
 h2,
 h3 {
   font-size: 30px;
@@ -740,7 +742,7 @@ h5 {
     width: 100%; } }
 #stripes {
   width: 100%;
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   top: 75px;
   flex-direction: column;
@@ -783,7 +785,8 @@ h5 {
   width: 100%;
   position: fixed;
   opacity: 0.92;
-  transition: 1s; }
+  transition: 1s;
+  z-index: 3; }
   .spacer:hover {
     opacity: 0.97; }
 

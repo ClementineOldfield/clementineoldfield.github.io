@@ -48,6 +48,10 @@ h1 {
   margin: 15px 0 0 20px;
 }
 
+h1#name {
+  z-index: 4;
+}
+
 h2,
 h3 {
   font-size: 30px;
@@ -173,7 +177,7 @@ h5 {
 
 #stripes {
   width: 100%;
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   top: 75px;
   flex-direction: column;
@@ -230,6 +234,7 @@ h5 {
   position: fixed;
   opacity: 0.92;
   transition: 1s;
+  z-index: 3;
 
   &:hover {
     opacity: 0.97;
