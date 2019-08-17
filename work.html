@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Clementine Oldfield</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="src/main.css">
+    <script src="src/main.js"></script>
 </head>
-<body>
+<body class="work-page">
     <div class="page-wrapper">
         <header>
             <div class="spacer"></div>
@@ -59,9 +59,10 @@
 
                     <div id="menu">
                         <ul>
+                            <a class="mobile-home-link" href="index.html"><li>Home.</li></a>
                             <a href="about.html"><li>About.</li></a>
                             <a href="work.html"><li>Work.</li></a>
-                            <a href="blog.html"><li>Blog.</li></a>
+                            <!-- <a href="blog.html"><li>Blog.</li></a> -->
                             <a href="contact.html"><li>Contact.</li></a>
                         </ul>
                         <table class="social-bar mobile-social">
@@ -79,49 +80,82 @@
             </nav>
         </header>
         <main>
-            <div class="blog-container">
-                <article  class="blog-content">
-                    <h3>5 Things I’ve Learnt in My First Days at Coding Bootcamp</h3>
-                    <p>
-                        *Fanfare* The time has come! It’s back to school for me again. This time at Coder Academy in Sydney. It’s been four days and I’m already reaching for my pillow and a fifth cup of coffee. The mornings are early and the days are busy but I’m surviving. Here are a few nuggets of wisdom I’ve gleaned so far in my first week as a baby dev.
-                    </p>
-                    <section>
-                        <h5>1. The days go fast</h5>
-                        <p>
-                            And when I say fast, I mean REALLY fast. I make coffee number one in the morning, hurry to the train station and then all of a sudden I’m home again, going over the work from the day and telling myself over and over to get an early night, even though I never seem to manage to. <br> I’ve been a night owl for the past few years and, until I can shake my habit of staying up until the early hours, I’m going to start feeling the effects of sleep deprivation.
-                        </p>
-                    </section>
-                    <section>
-                        <h5>2. Terminology often makes it sound harder than it is</h5>
-                        <p>When I’m trawling google to try and understand a concept and I come across a bunch of computery words that sound like pure gibberish, it’s easy to get frustrated and just feel plain dumb. But once you get your head around the definition of each term one by one and how they interact, it starts to become a lot less scary. The trick is to look at it piece by piece (or eat the hypothetical elephant one bite at a time).</p>
-                    </section>
-                    <section>
-                        <h5>3. Sometimes concepts come easily. (and sometimes not so much…)</h5>
-                        <p>I have a bit of experience with coding already so some of the concepts we’ve covered so far are familiar territory; and some other things have been pretty easy to grasp pretty quickly. But even when I feel like I’m doing well, I keep getting blindsided by some little coding rule or idea that just. doesn’t. click.<br>And even if it’s something tiny, it can hold you up for hours (not an exaggeration). Sometimes it feels like I’m spending 90% of my time on 10% of the work.</p>
-                    </section>
-                    <section>
-                        <h5>4. Stretch, stretch, stretch</h5>
-                        <p>This might be a no brainer for some people but it really took me by surprise. Sitting at a desk all day, when you aren’t used to it, is hard.<br>I get so stuck into the problems and challenges on my laptop that, unless someone actively reminds me (thanks Garret) to get up and walk around every now and then, by the end of the day I feel like I’ve been sitting on a red-eye economy-class flight for 36 hours. Could be time to scatter some 5 minute yoga routines throughout the day.</p>
-                    </section>
-                    <section>
-                        <h5>5. People are great</h5>
-                        <p>Even if some of what is to come seems a bit daunting at times – I think I’ve landed in a pretty great <span class="strike">cohort</span> dev team. I feel quite at home already, even after only a few days, and I’m excited to go through it all together.</p>
-                    </section>
-                </article>
-                <aside class="sidebar">
-                    <h4>Sidebar</h4>
-                    <p>Links to categories and related articles coming soon...</p>
-                </aside>
+            <h3 class="work">Recent Projects.</h3>
+            <div class="projects">
+                <div class="project">
+                  <a href="https://github.com/bHarlum/food-ladder-react" target="_blank">
+                    <h4 class="title">MERN Stack Group Assessment: Food Ladder</h4>
+                    <ul class="tags">
+                      <li>React</li>
+                      <li>Express</li>
+                      <li>Redux</li>
+                      <li>MongoDB</li>
+                      <li>NodeJS</li>
+                      <li>Styled Components</li>
+                    </ul>
+                    <div class="project-image project-5">
+                  </div>
+                  </a>
+                </div>
+              <div class="project">
+                <a href="https://github.com/ClementineOldfield/barrio-rails-app" target="_blank">
+                  <h4 class="title">Ruby on Rails Group Assessment: Coder Academy</h4>
+                  <ul class="tags">
+                    <li>Ruby</li>
+                    <li>Ruby on Rails</li>
+                    <li>UX</li>
+                    <li>UI</li>
+                    <li>Automated Testing</li>
+                    <li>Responsive Design</li>
+                  </ul>
+                  <div class="project-image project-1">
+                </div>
+                </a>
+              </div>
+              <div class="project">
+                <a href="http://www.allegramusic.com.au/" target="_blank">
+                  <h4 class="title">Allegra Music: Melbourne Music School Website</h4>
+                  <ul class="tags">
+                    <li>Wordpress</li>
+                    <li>Responsive Design</li>
+                    <li>PHP</li>
+                  </ul>
+                  <div class="project-image project-2"></div>
+                </a>
+              </div>
+              <div class="project">
+                <a href="https://bigsur.com.hk/" target="_blank">
+                  <h4 class="title">Big Sur HK: Theme Redevelopment</h4>
+                  <ul class="tags">
+                      <li>Wordpress</li>
+                      <li>Responsive Design</li>
+                      <li>PHP</li>
+                    </ul>
+                  <div class="project-image project-3">
+                  </div>
+                </a>
+              </div>
+              <div class="project">
+                <a href="https://www.sydneyfilmschool.com/" target="_blank">
+                  <h4 class="title">Sydney Film School: Collateral Design</h4>
+                  <ul class="tags">
+                    <li>Graphic Design</li>
+                    <li>Adobe Creative Suite</li>
+                    <li>Print Design</li>
+                    </ul>
+                  <div class="project-image project-4">
+                  </div>
+                </a>
+              </div>
             </div>
-        </main>
         <footer>
             <ul class="social-media-bar desktop-social">
                 <li><a href="http://www.linkedin.com/in/clementine-oldfield-064aa744"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="https://twitter.com/O_Clementine"><i class="fab fa-twitter"></i></li></a>
                 <li><a href="https://www.instagram.com/clementine_peggy/"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://github.com/ClementineOldfield"><i class="fab fa-github"></i></a></li>
-            </ul>     
-        </footer>     
-    </div>
+            </ul>
+        </footer>
+    </div> <!-- Page Wrapper -->
 </body>
 </html>
