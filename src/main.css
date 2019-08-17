@@ -185,7 +185,7 @@ table {
   border-spacing: 0; }
 
 nav {
-  z-index: 3;
+  z-index: 5;
   position: absolute;
   top: 0;
   right: 0;
@@ -201,6 +201,8 @@ nav {
   transition: margin 1s;
   position: fixed;
   margin: 0 0 0 100%; }
+  #menu .mobile-home-link {
+    display: block; }
   #menu a {
     display: block;
     font-size: 40px;
@@ -249,6 +251,8 @@ nav {
     margin: 0;
     right: 20px;
     top: -20px; }
+    #menu .mobile-home-link {
+      display: none; }
     #menu a {
       display: inline-block;
       font-size: 26px;

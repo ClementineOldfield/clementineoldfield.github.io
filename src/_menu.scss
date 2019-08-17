@@ -1,5 +1,5 @@
 nav {
-  z-index: 3;
+  z-index: 5;
   position: absolute;
   top: 0;
   right: 0;
@@ -16,6 +16,10 @@ nav {
   transition: margin 1s;
   position: fixed;
   margin: 0 0 0 100%;
+
+  .mobile-home-link {
+    display: block;
+  }
 
   a {
     display: block;
@@ -73,6 +77,10 @@ nav {
     margin: 0;
     right: 20px;
     top: -20px;
+
+    .mobile-home-link {
+      display: none;
+    }
 
     a {
       display: inline-block;
